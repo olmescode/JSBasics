@@ -329,7 +329,7 @@ let miObjeto = { clave1: 'valor1', clave2: 'valor2', clave3: 'valor3' };
 imprimirTodosLosElementosDelObjeto(miObjeto);
 ```
 
-### Best Practices
+### Buenas Prácticas
 - El nombre de la variable debe ser un nombre descriptivo que se identifique con el codigo
 - Las variables no se pueden iniciar con numeros
 - No se pueden usar caracteres especiales
