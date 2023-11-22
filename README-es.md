@@ -123,8 +123,8 @@ let deudas = 100;
 #### Ejemplo: Cálculos:
 
 ```javascript
-let fullName = name + ' ' + lastName;
-let realMoney = savedMoney - debts;
+let nombreCompleto = nombre + ' ' + apellido;
+let dineroReal = dineroGuardado - deudas;
 ```
 
 ## Funciones
