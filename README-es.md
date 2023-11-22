@@ -6,7 +6,7 @@ JavaScript es un lenguaje de programación versátil, de alto nivel e interpreta
 
 - ¿Qué es una variable y para qué sirve?
 
-Las variables son como cajas (espacios de memoria) donde podemos almacenar información, dependiendo de los tipos y estructuras de datos admitidos por nuestro lenguaje.
+Las variables son espacios de memoria donde podemos almacenar información, dependiendo de los tipos y estructuras de datos admitidos por nuestro lenguaje.
 
 - Diferencia entre declarar e inicializar una variable?
 

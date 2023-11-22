@@ -6,7 +6,7 @@ JavaScript is a versatile, high-level, interpreted programming language primaril
 
 - What is a variable, and what is it for?
 
-Variables are like boxes (memory spaces) where we can store information, depending on the types and data structures supported by our language.
+Variables are memory spaces where we can store information, depending on the types and data structures supported by our language.
 
 - Difference between declaring and initializing a variable?
 
