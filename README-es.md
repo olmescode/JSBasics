@@ -48,7 +48,7 @@ let temperatura = 25.5;
 
 Las cadenas pueden contener desde un solo carácter hasta un párrafo completo.
 ```javascript
-let nombre = "Olmes";
+let nombre = "Luis";
 let saludo = "¡Hola, mundo!";
 ```
 
@@ -79,8 +79,8 @@ let frutasFavoritas = ["Manzana", "Plátano", "Naranja"];
 Los objetos te ayudan a organizar datos con propiedades nombradas. Aquí tenemos una persona con un nombre, edad y estado de estudiante.
 ```javascript
 let miObjeto = {
-    nombre: "Olmes",
-    edad: 25,
+    nombre: "Luis",
+    edad: 20,
     esEstudiante: true
 };
  ```

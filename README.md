@@ -48,7 +48,7 @@ let temperature = 25.5;
 
 Strings can hold anything from a single character to a whole paragraph.
 ```javascript
-let name = "Olmes";
+let name = "Luis";
 let greeting = "Hello, world!";
 ```
 
@@ -80,8 +80,8 @@ Objects help you organize data with named properties. Here, we have a person wit
 name, age, and student status.
 ```javascript
 let myObject = {
-    name: "Olmes",
-    age: 25,
+    name: "Luis",
+    age: 20,
     isStudent: true
   };
  ```
