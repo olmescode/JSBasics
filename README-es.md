@@ -14,7 +14,7 @@ Declarar es informar a JavaScript que estamos creando una variable con un nombre
 
 - Diferencia entre sumar números y concatenar cadenas?
 
-El operador + nos permite sumar números y concatenar cadenas. Cuando se usa con números, los suma. Con cadenas, las une (concatena).
+El operador `+` nos permite sumar números y concatenar cadenas. Cuando se usa con números, los suma. Con cadenas, las une (concatena).
 
 ## Declaración y Asignación
 
