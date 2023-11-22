@@ -1,17 +1,37 @@
+# JavaScript
+
+JavaScript is a versatile, high-level, interpreted programming language primarily used for client-side web development. It enables interactive and dynamic features on websites, making them more engaging for users. Developed in the mid-'90s, JavaScript has evolved into a key technology for building modern web applications.
+
 ### Variables and Operations
 
-#### Answers to the questions:
-
-- **What is a variable, and what is it for?**
+- What is a variable, and what is it for?
   Variables are like boxes (memory spaces) where we can store information, depending on the types and data structures supported by our language.
 
-- **Difference between declaring and initializing a variable?**
+- Difference between declaring and initializing a variable?
   Declaring is telling JavaScript we're creating a variable with a specific name. Initializing is giving that variable a value.
 
-- **Difference between adding numbers and concatenating strings?**
+- Difference between adding numbers and concatenating strings?
   The `+` operator allows us to add numbers and concatenate strings. When used with numbers, it adds them. With strings, it joins (concatenates) them.
 
-#### Naming and data types:
+## Declaration and Asignation
+
+Palabra resevada de una variable, dependiendo el caso puede ser:
+
+- `var`
+- `let`
+- `const`
+
+```javascript
+var mi_variable = "Declarar variable"
+```
+
+Nombre de la variable: `var mi_variable`
+
+Operador de asignacion: `=`
+
+Dato asignado a la variable: `"Declarar variable"`
+
+## Naming and data types:
 
 **Number:**
 JavaScript handles both integers and decimals as numbers.
@@ -77,8 +97,7 @@ Regular expressions are used for pattern matching within strings.
 let pattern = /[a-zA-Z]+/;
 ```
 
-
-#### JavaScript code for the variables:
+### JavaScript code for the variables:
 
 ```javascript
 let name = 'Juan Sultan';
@@ -99,8 +118,6 @@ let realMoney = savedMoney - debts;
 ```
 
 ## Functions
-
-### Answering in a nutshell:
 
 - What is a function?
 A function is like a recipe – a set of instructions to perform a specific task.
@@ -131,8 +148,6 @@ In JavaScript, there are if, else if, and else. They handle different conditions
 - Can I combine functions and conditionals?
 Absolutely, you can use functions to encapsulate tasks within conditionals.
 
-### Replicating switch behavior:
-
 ```javascript
 const subscriptionType = "Basic";
 
@@ -155,8 +170,6 @@ if (subscriptionType === "Free") {
 It's essentially a mapping between keys (subscription types) and values (associated messages).
 
 This approach leverages the key-based retrieval capabilities of objects, providing a cleaner and more efficient way to manage multiple conditions.
-
-It's a form of "declarative programming" where you declare what should happen for each case rather than explicitly programming the steps to take for each case (as you would with multiple if statements)
 */
 
 // Subscription information object
@@ -186,8 +199,6 @@ checkSubscription("InvalidType");
 ```
 
 ## Loops
-
-Answering questions:
 
 - What is a loop?
 A loop is a way to repeatedly execute a block of code.
@@ -228,7 +239,7 @@ while (j >= 2) {
 
 ```
 
-### Asking users about 2 + 2 until correct:
+### Example: Asking users about 2 + 2 until correct:
 
 ```javascript
 let userAnswer;
@@ -238,9 +249,8 @@ do {
 
 alert("Congratulations! You got it right!");
 ```
-## Lists
 
-### Answering questions:
+## Lists
 
 - What is an array?
 An array is a data structure that stores a collection of elements.
@@ -254,9 +264,7 @@ Use arrays for ordered lists of similar items; use objects for key-value pairs r
 - Can I mix arrays with objects or even objects with arrays?
 Absolutely, you can have arrays of objects or objects containing arrays.
 
-## Creating functions:
-
-### Function to print the first element of any array:
+### Example: Function to print the first element of any array:
 ```javascript
 let myArray = [1, 2, 3, 4];
 
@@ -267,7 +275,7 @@ function printFirstElement(arr) {
 printFirstElement(myArray);
 ```
 
-### Function to print all elements of any array:
+### Example: Function to print all elements of any array:
 ```javascript
 let anotherArray = ['apple', 'orange', 'banana'];
 
@@ -280,7 +288,7 @@ function printAllElements(arr) {
 printAllElements(anotherArray);
 ```
 
-### Function to print all elements of any object:
+### Example: Function to print all elements of any object:
 
 ```javascript
 function printAllObjectElements(obj) {
@@ -293,3 +301,9 @@ function printAllObjectElements(obj) {
 let myObject = { key1: 'value1', key2: 'value2', key3: 'value3' };
 printAllObjectElements(myObject);
 ```
+
+### Best Practices
+- El nombre de la variable debe ser un nombre descriptivo que se identifique con el codigo
+- Las variables no se pueden iniciar con numeros
+- No se pueden usar caracteres especiales
+- Los tipos de escritura de una variable son: lowerCamelCase, UpperCamelCase, snake_case
